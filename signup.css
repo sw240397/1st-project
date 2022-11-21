@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main2{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(to top ,rgba(39, 33, 33, 0.5)50%,rgba(29, 24, 24, 0.5)50%) , url(GrayWolf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main2 h1{
+    color: lightcyan;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Times New Roman';
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.main2 span{
+    color: #ff7200;
+    font-family: 'Times New Roman';
+}
+.main2 h2{
+    color: lightpink;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+form{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: azure;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+
+}
+
+form .text{
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 17px;
+    border: none;
+    transition: 0.4sec ease-in-out;
+}
+form .text:hover{
+    background-color: beige;
+}
+
+form .email{
+    padding-left: 40px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 17px;
+    border: none;
+    transition: 0.4sec ease-in-out;
+}
+form .email:hover{
+    background-color: beige;
+}
+
+form .pass{
+    padding-left: 40px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    border: none;
+    transition: 0.4sec ease-in-out;
+}
+form .pass:hover{
+    background-color: beige;
+}
+
+form .age{
+    border-radius: 10px;
+    padding-left: 40px;
+    background-color: lightgray;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    transition: 0.4sec ease-in-out;
+}
+form .age:hover{
+    background-color: beige;
+}
+
+form .mob{
+    padding-left: 40px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    transition: 0.4sec ease-in-out;
+}
+
+form .mob:hover{
+    background-color: beige;
+}
+
+form .add{
+    background-color: lightgray;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    padding-left: 60px;
+    border-radius: 10px;
+    transition: 0.4sec ease-in-out;
+}
+form .add:hover{
+    background-color: beige;
+}
+
+form .dob{
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-left: 40px;
+    background-color: lightgray;
+    transition: 0.4sec ease-in-out;
+}
+form .dob:hover{
+    background-color: beige;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: 0.4sec ease-in-out;
+}
+button:hover{
+    background-color: #ff7200;
+}
+
+
